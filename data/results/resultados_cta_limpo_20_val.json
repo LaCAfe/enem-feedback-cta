@@ -1,0 +1,14 @@
+  {
+    "modelo": "llama3_2_latest",
+    "condicao": "cta_limpo_20_val",
+    "n_pares": 46,
+    "alpha": 0.05,
+    "baseline_media": 0.6733,
+    "baseline_std": 0.0245,
+    "alt_media": 0.6828,
+    "alt_std": 0.0266,
+    "diferenca": 0.0095,
+    "wilcoxon_W": 363.0,
+    "p_value": 0.0263,
+    "significativo": true
+  }
