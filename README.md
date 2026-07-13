@@ -30,6 +30,17 @@ https://huggingface.co/datasets/kamel-usp/aes_enem_dataset
 Download the dataset and place `train-sourceAOnly.parquet` in a `parquet/` directory
 before running the pipeline.
 
+## Requirements
+```
+pip install -r requirements.txt
+```
+Models must be installed via Ollama (see `models.txt`):
+```
+ollama pull cnmoro/mistral_7b_portuguese:q2_K
+ollama pull llama3.2:latest
+```
+
+
 ## References
 Anchiêta, R. T., Luz, A. I., Lopes, S. L., and Moura, R. S. (2025). A zero-shot prompting approach for automated feedback generation on ENEM essays. In Brazilian Symposium
 on Multimedia and the Web (WebMedia), pages 511–515. SBC.
