@@ -21,3 +21,21 @@ In *Anais do STIL 2026*. SBC.
   year      = {2026},
   publisher = {SBC}
 }
+
+
+
+## Dataset
+This study uses the AES-ENEM dataset (Silveira et al., 2024):
+https://huggingface.co/datasets/kamel-usp/aes_enem_dataset
+Download the dataset and place `train-sourceAOnly.parquet` in a `parquet/` directory
+before running the pipeline.
+
+## References
+Anchiêta, R. T., Luz, A. I., Lopes, S. L., and Moura, R. S. (2025). A zero-shot prompting approach for automated feedback generation on ENEM essays. In Brazilian Symposium
+on Multimedia and the Web (WebMedia), pages 511–515. SBC.
+
+Bird, S., Klein, E., and Loper, E. (2009). Natural language processing with Python: analyzing text with the natural language toolkit. O’Reilly Media, Inc.
+
+Silveira, I. C., Barbosa, A., and Mau´a, D. D. (2024). A new benchmark for automatic essay scoring in Portuguese. In Proceedings of the 16th International Conference on Computational Processing of Portuguese-Vol. 1, pages 228–237.
+
+Zhang, T., Kishore, V., Wu, F., Weinberger, K. Q., and Artzi, Y. (2019). Bertscore: Evaluating text generation with bert. arXiv preprint arXiv:1904.09675.
