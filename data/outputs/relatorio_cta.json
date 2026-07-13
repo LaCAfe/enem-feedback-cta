@@ -1,0 +1,244 @@
+{
+  "input": "v7/data/splits/feedbacks_validos_c5_train-sourceAOnly.parquet",
+  "parametros": {
+    "min_doc_freq": 3,
+    "top_n": 20,
+    "ngram_sizes": [
+      2,
+      3,
+      4
+    ],
+    "stopwords_extras": [
+      "apresenta",
+      "armas",
+      "autor",
+      "cantar",
+      "ciência",
+      "competência",
+      "governo",
+      "hino",
+      "parágrafo",
+      "posse",
+      "redação",
+      "texto",
+      "vermelho"
+    ],
+    "total_feedbacks": 167
+  },
+  "cta_completo": {
+    "total_ngrams_candidatos": 44,
+    "total_ngrams_brutos": 5043,
+    "vocabulario_unico_bruto": 4804,
+    "termos_selecionados": 20,
+    "top_termos_com_freq": [
+      {
+        "termo": "sugestão intervenção",
+        "doc_freq": 18,
+        "total_freq": 18
+      },
+      {
+        "termo": "conclusão coerente",
+        "doc_freq": 16,
+        "total_freq": 16
+      },
+      {
+        "termo": "resolver problema",
+        "doc_freq": 10,
+        "total_freq": 10
+      },
+      {
+        "termo": "último parágrafo",
+        "doc_freq": 9,
+        "total_freq": 9
+      },
+      {
+        "termo": "cantar hino",
+        "doc_freq": 9,
+        "total_freq": 9
+      },
+      {
+        "termo": "proposta intervenção",
+        "doc_freq": 6,
+        "total_freq": 6
+      },
+      {
+        "termo": "quer dizer",
+        "doc_freq": 6,
+        "total_freq": 6
+      },
+      {
+        "termo": "além disso",
+        "doc_freq": 5,
+        "total_freq": 5
+      },
+      {
+        "termo": "autor quer",
+        "doc_freq": 5,
+        "total_freq": 5
+      },
+      {
+        "termo": "autor quer dizer",
+        "doc_freq": 5,
+        "total_freq": 5
+      },
+      {
+        "termo": "posse armas",
+        "doc_freq": 5,
+        "total_freq": 8
+      },
+      {
+        "termo": "quinto parágrafo",
+        "doc_freq": 4,
+        "total_freq": 4
+      },
+      {
+        "termo": "proposta solução",
+        "doc_freq": 4,
+        "total_freq": 4
+      },
+      {
+        "termo": "sugestões intervenção",
+        "doc_freq": 4,
+        "total_freq": 4
+      },
+      {
+        "termo": "parágrafo final",
+        "doc_freq": 4,
+        "total_freq": 4
+      },
+      {
+        "termo": "hino nacional",
+        "doc_freq": 4,
+        "total_freq": 4
+      },
+      {
+        "termo": "solução problema",
+        "doc_freq": 4,
+        "total_freq": 4
+      },
+      {
+        "termo": "conclusão confusa",
+        "doc_freq": 4,
+        "total_freq": 4
+      },
+      {
+        "termo": "mesma coisa",
+        "doc_freq": 3,
+        "total_freq": 3
+      },
+      {
+        "termo": "sugestão solução",
+        "doc_freq": 3,
+        "total_freq": 3
+      }
+    ]
+  },
+  "cta_limpo": {
+    "total_ngrams_candidatos": 28,
+    "total_ngrams_brutos": 4203,
+    "vocabulario_unico_bruto": 4042,
+    "termos_selecionados": 20,
+    "top_termos_com_freq": [
+      {
+        "termo": "sugestão intervenção",
+        "doc_freq": 18,
+        "total_freq": 18
+      },
+      {
+        "termo": "conclusão coerente",
+        "doc_freq": 16,
+        "total_freq": 16
+      },
+      {
+        "termo": "resolver problema",
+        "doc_freq": 10,
+        "total_freq": 10
+      },
+      {
+        "termo": "proposta intervenção",
+        "doc_freq": 6,
+        "total_freq": 6
+      },
+      {
+        "termo": "quer dizer",
+        "doc_freq": 6,
+        "total_freq": 6
+      },
+      {
+        "termo": "além disso",
+        "doc_freq": 5,
+        "total_freq": 5
+      },
+      {
+        "termo": "proposta solução",
+        "doc_freq": 4,
+        "total_freq": 4
+      },
+      {
+        "termo": "sugestões intervenção",
+        "doc_freq": 4,
+        "total_freq": 4
+      },
+      {
+        "termo": "solução problema",
+        "doc_freq": 4,
+        "total_freq": 4
+      },
+      {
+        "termo": "conclusão confusa",
+        "doc_freq": 4,
+        "total_freq": 4
+      },
+      {
+        "termo": "mesma coisa",
+        "doc_freq": 3,
+        "total_freq": 3
+      },
+      {
+        "termo": "sugestão solução",
+        "doc_freq": 3,
+        "total_freq": 3
+      },
+      {
+        "termo": "intervenção genérica",
+        "doc_freq": 3,
+        "total_freq": 3
+      },
+      {
+        "termo": "meios comunicação",
+        "doc_freq": 3,
+        "total_freq": 3
+      },
+      {
+        "termo": "dito antes",
+        "doc_freq": 3,
+        "total_freq": 3
+      },
+      {
+        "termo": "solução para problema",
+        "doc_freq": 3,
+        "total_freq": 3
+      },
+      {
+        "termo": "vencer vida",
+        "doc_freq": 3,
+        "total_freq": 3
+      },
+      {
+        "termo": "intervenção para resolver problema",
+        "doc_freq": 3,
+        "total_freq": 3
+      },
+      {
+        "termo": "intervenção para resolver",
+        "doc_freq": 3,
+        "total_freq": 3
+      },
+      {
+        "termo": "conclusão além",
+        "doc_freq": 3,
+        "total_freq": 3
+      }
+    ]
+  }
+}
